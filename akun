@@ -1,0 +1,65 @@
+proxies:
+  - name: servermojo
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: 69dd5785-00fb-4adc-abd2-caa7112066e0
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: do2.server-vpn.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: do2.server-vpn.cloud
+    udp: true
+  - name: server
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: a77cbb93-87e5-4ea8-b855-f4ccff6ae490
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-linode.server-vpn.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-linode.server-vpn.cloud
+    udp: true
+  - name: jhenver
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: 2b25e35c-ec3c-40b0-815a-f8ca22a5c821
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: warna2.server-vpn.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: warna2.server-vpn.cloud
+    udp: true
+  - name: user
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: be876244-3cf1-4938-8b5c-d061d4c19ecb
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: trojan.dhenny.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: trojan.dhenny.my.id
+    udp: true
