@@ -1,65 +1,145 @@
 proxies:
-  - name: servermojo
-    server: 104.26.6.171
-    port: 80
+  - name: rembulan xut
+    server: ava.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.do5.jstun.cloud
+    network: ws
+    ws-opts:
+      path: vmess
+      headers:
+        Host: ava.game.naver.com.do5.jstun.cloud
+    udp: true
+  - name: rembulanku xut
+    server: ava.game.naver.com
+    port: 443
+    type: vmess
+    uuid: b2f7ddd6-c9de-4d52-811c-e99eff8d79eb
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.do1.jstn.fun
+    network: ws
+    ws-opts:
+      path: vmess
+      headers:
+        Host: ava.game.naver.com.do1.jstn.fun
+    udp: true
+  - name: rembulan iflix
+    server: sg-do5.jstun.cloud
+    port: 443
+    type: vmess
+    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hwvip.iflix.com
+    network: ws
+    ws-opts: 
+      path: vmess
+      headers: 
+        Host: sg-do5.jstun.cloud
+    udp: true
+  - name: rembulanku iflix
+    server: sg-do1.jstun.cloud
+    port: 443
+    type: vmess
+    uuid: b2f7ddd6-c9de-4d52-811c-e99eff8d79eb
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hwvip.iflix.com
+    network: ws
+    ws-opts:
+      path: vmess
+      headers:
+        Host: sg-do1.jstun.cloud
+    udp: true
+  - name: rembulan vidio
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do5.jstun.cloud
+    network: ws
+    ws-opts: 
+      path: vmess
+      headers: 
+        Host: sg-do5.jstun.cloud
+    udp: true
+  - name: rembulanku vidio
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: b2f7ddd6-c9de-4d52-811c-e99eff8d79eb
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do1.jstun.cloud
+    network: ws
+    ws-opts:
+      path: vmess
+      headers:
+        Host: sg-do1.jstun.cloud
+    udp: true
+  - name: servermojo xut
+    server: ava.game.naver.com
+    port: 443
     type: vmess
     uuid: 69dd5785-00fb-4adc-abd2-caa7112066e0
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: do2.server-vpn.cloud
+    servername: ava.game.naver.com.do2.storevpn.cc
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: do2.server-vpn.cloud
+        Host: ava.game.naver.com.do2.storevpn.cc
     udp: true
-  - name: server
-    server: 104.26.6.171
-    port: 80
+  - name: servermojo vidio
+    server: 104.22.5.240
+    port: 443
     type: vmess
-    uuid: a77cbb93-87e5-4ea8-b855-f4ccff6ae490
+    uuid: 69dd5785-00fb-4adc-abd2-caa7112066e0
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: sg1-linode.server-vpn.cloud
+    servername: do2.storevpn.cc
     network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg1-linode.server-vpn.cloud
+    ws-opts: 
+      path: vmess
+      headers: 
+        Host: do2.storevpn.cc
     udp: true
-  - name: jhenver
-    server: 104.26.6.171
-    port: 80
+  - name: servermojo iflix
+    server: do2.storevpn.cc
+    port: 443
     type: vmess
-    uuid: 2b25e35c-ec3c-40b0-815a-f8ca22a5c821
+    uuid: 69dd5785-00fb-4adc-abd2-caa7112066e0
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: warna2.server-vpn.cloud
+    servername: hwvip.iflix.com
     network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: warna2.server-vpn.cloud
-    udp: true
-  - name: user
-    server: 104.26.6.171
-    port: 80
-    type: vmess
-    uuid: be876244-3cf1-4938-8b5c-d061d4c19ecb
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: trojan.dhenny.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: trojan.dhenny.my.id
+    ws-opts: 
+      path: vmess
+      headers: 
+        Host: do2.storevpn.cc
     udp: true
