@@ -8,7 +8,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.do5.jstun.cloud
+    servername: 
     network: ws
     ws-opts:
       path: vmess
