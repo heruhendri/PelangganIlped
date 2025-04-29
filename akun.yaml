@@ -1,20 +1,4 @@
 proxies:
-  - name: rembulan xut
-    server: ava.game.naver.com
-    port: 443
-    type: vmess
-    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.do5.jstun.cloud
-    network: ws
-    ws-opts:
-      path: vmess
-      headers:
-        Host: ava.game.naver.com.do5.jstun.cloud
-    udp: true
   - name: rembulanku xut
     server: ava.game.naver.com
     port: 443
