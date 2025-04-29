@@ -1,6 +1,6 @@
 proxies:
   - name: rembulan xut
-    server: ava.game.naver.com
+    server: ava.game.naver.co
     port: 443
     type: vmess
     uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
