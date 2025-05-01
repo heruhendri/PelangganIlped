@@ -132,7 +132,7 @@ proxies:
     server: chat.sociomile.com
     port: 80
     type: vmess
-    uuid: 960fa1a6-095c-4416-9141-4ccea3fa3c12
+    uuid: 94eac06c-1b1a-40d0-b384-61cdbdf0f395
     alterId: 0
     cipher: auto
     tls: false
