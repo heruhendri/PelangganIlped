@@ -137,12 +137,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: chat.sociomile.com.do4.jstn.fun
+    servername: chat.sociomile.com.do4.jstun.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: chat.sociomile.com.do4.jstn.fun
+        Host: chat.sociomile.com.do4.jstun.cloud
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
