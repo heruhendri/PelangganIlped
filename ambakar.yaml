@@ -129,7 +129,7 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: ayambakar
-    server: 104.21.21.104
+    server: chat.sociomile.com
     port: 80
     type: vmess
     uuid: b11640fa-5abe-4890-ac9d-1685fdd868b0
@@ -137,12 +137,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg-do2.jstun.cloud
+    servername: chat.sociomile.com.do2.jstn.fun
     network: ws
     ws-opts:
-      path: vmess
+      path: /vmess
       headers:
-        Host: sg-do2.jstun.cloud
+        Host: chat.sociomile.com.do2.jstn.fun
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
