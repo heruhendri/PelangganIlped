@@ -129,7 +129,7 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: ilperendy
-    server: bakrie.ac.id.rajasa
+    server: bakrie.ac.id
     port: 443
     type: vmess
     uuid: ae622118-d48b-431b-9931-ff8f8191aee8
