@@ -129,20 +129,20 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: alfatih
-    server: ava.game.naver.com
-    port: 443
+    server: 104.21.21.104
+    port: 80
     type: vmess
-    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
+    uuid: 11a62134-9017-47d4-ae9d-f700a24cf05a
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: ava.game.naver.com.do5.jstun.cloud
+    servername: sg-do4.jstun.cloud
     network: ws
     ws-opts:
       path: vmess
       headers:
-        Host: ava.game.naver.com.do5.jstun.cloud
+        Host: sg-do4.jstun.cloud
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
