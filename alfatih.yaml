@@ -129,7 +129,7 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: alfatih
-    server: 104.21.21.104
+    server: quiz.int.vidio.com
     port: 443
     type: vmess
     uuid: 11a62134-9017-47d4-ae9d-f700a24cf05a
