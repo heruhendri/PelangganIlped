@@ -129,20 +129,20 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: ilperendy
-    server: 104.21.21.104
-    port: 80
+    server: bakrie.ac.id.rajasa
+    port: 443
     type: vmess
     uuid: ae622118-d48b-431b-9931-ff8f8191aee8
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: id-rajasa.jabarstore.xyz
+    servername: bakrie.ac.id.rajasa.jabarstore.xyz
     network: ws
     ws-opts:
       path: vmess
       headers:
-        Host: id-rajasa.jabarstore.xyz
+        Host: bakrie.ac.id.rajasa.jabarstore.xyz
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
