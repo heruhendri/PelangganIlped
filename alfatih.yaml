@@ -129,7 +129,7 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: alfatih
-    server: 104.21.21.104
+    server: chat.sociomile.com
     port: 80
     type: vmess
     uuid: 11a62134-9017-47d4-ae9d-f700a24cf05a
@@ -137,12 +137,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg-do4.jstun.cloud
+    servername: chat.sociomile.com.do4.jstn.fun
     network: ws
     ws-opts:
-      path: vmess
+      path: /vmess
       headers:
-        Host: sg-do4.jstun.cloud
+        Host: chat.sociomile.com.do4.jstn.fun
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
