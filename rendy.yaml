@@ -128,27 +128,27 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: ilperendy
-    server: bakrie.ac.id
-    port: 443
+  - name: jdvdhj
+    server: chat.sociomile.com
+    port: 80
     type: vmess
-    uuid: ae622118-d48b-431b-9931-ff8f8191aee8
+    uuid: 90e2c7cf-2726-4da8-9248-06ec74979b41
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: bakrie.ac.id.rajasa.jabarstore.xyz
+    servername: chat.sociomile.com.do6.jstn.fun
     network: ws
     ws-opts:
-      path: vmess
+      path: /vmess
       headers:
-        Host: bakrie.ac.id.rajasa.jabarstore.xyz
+        Host: chat.sociomile.com.do6.jstn.fun
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - ilperendy
+      - jdvdhj
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
