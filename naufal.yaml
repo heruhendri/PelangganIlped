@@ -128,11 +128,11 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: ilpedsugi
+  - name: naufal
     server: 104.21.21.104
     port: 80
     type: vmess
-    uuid: 9eb113d8-0922-4efb-b00d-a17b245f863c
+    uuid: 960fa1a6-095c-4416-9141-4ccea3fa3c12
     alterId: 0
     cipher: auto
     tls: false
@@ -148,7 +148,7 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - ilpedsugi
+      - naufal
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
