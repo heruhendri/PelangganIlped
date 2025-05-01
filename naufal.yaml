@@ -142,7 +142,7 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: 
+        Host: chat.sociomile.com.do4.jstn.fun
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
