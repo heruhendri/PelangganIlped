@@ -132,17 +132,17 @@ proxies:
     server: chat.sociomile.com
     port: 80
     type: vmess
-    uuid: b11640fa-5abe-4890-ac9d-1685fdd868b0
+    uuid: 5f0d11fa-70c1-47a1-b955-ce2e7573e8cd
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: chat.sociomile.com.do2.jstn.fun
+    servername: chat.sociomile.com.do4.jstun.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: chat.sociomile.com.do2.jstn.fun
+        Host: chat.sociomile.com.do4.jstun.cloud
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
