@@ -132,7 +132,7 @@ proxies:
     server: do2.storevpn.cc
     port: 443
     type: vmess
-    uuid: b2f7ddd6-c9de-4d52-811c-e99eff8d79eb
+    uuid: 69dd5785-00fb-4adc-abd2-caa7112066e0
     alterId: 0
     cipher: auto
     tls: true
