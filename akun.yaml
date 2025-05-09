@@ -129,7 +129,7 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: hendri
-    server: ava.game.naver.com
+    server: do2.storevpn.cc
     port: 443
     type: vmess
     uuid: b2f7ddd6-c9de-4d52-811c-e99eff8d79eb
@@ -137,12 +137,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.do1.jstn.fun
+    servername: hwvip.iflix.com
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: ava.game.naver.com.do1.jstn.fun
+        Host: do2.storevpn.cc
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
