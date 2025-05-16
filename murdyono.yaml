@@ -140,7 +140,7 @@ proxies:
     servername: chat.sociomile.com.do4.jstun.cloud
     network: ws
     ws-opts:
-      path: /vmess
+      path: /upvmess
       headers:
         Host: chat.sociomile.com.do4.jstun.cloud
     udp: true
