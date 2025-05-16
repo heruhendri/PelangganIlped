@@ -128,7 +128,7 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: naufalbaru
+  - name: naufalupdate
     server: chat.sociomile.com
     port: 80
     type: vmess
@@ -148,7 +148,7 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - naufalbaru
+      - naufalupdate
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
