@@ -140,7 +140,7 @@ proxies:
     servername: chat.sociomile.com.do1.jstn.fun
     network: ws
     ws-opts:
-      path: /vmess
+      path: /upvmess
       headers:
         Host: chat.sociomile.com.do1.jstn.fun
     udp: true
