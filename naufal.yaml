@@ -132,7 +132,7 @@ proxies:
     server: chat.sociomile.com
     port: 80
     type: vmess
-    uuid: 93b78efd-49d7-4486-8209-42eec8215bd0
+    uuid: 1dc10b8f-03c0-4953-9bf4-ce0c40883e5e
     alterId: 0
     cipher: auto
     tls: false
@@ -140,7 +140,7 @@ proxies:
     servername: chat.sociomile.com.do1.jstn.fun
     network: ws
     ws-opts:
-      path: /upvmess
+      path: /chat.sociomile.com
       headers:
         Host: chat.sociomile.com.do1.jstn.fun
     udp: true
