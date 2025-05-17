@@ -128,11 +128,11 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: SG XUTS DO 🇸🇬
+  - name: NAUFAL 🇸🇬
     server: 104.18.214.235
     port: 443
     type: vmess
-    uuid: 88131892-394f-402c-8739-65446010b6a4
+    uuid: 1dc10b8f-03c0-4953-9bf4-ce0c40883e5e
     alterId: 0
     cipher: auto
     tls: true
@@ -148,7 +148,7 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - SG XUTS DO 🇸🇬
+      - NAUFAL 🇸🇬
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
