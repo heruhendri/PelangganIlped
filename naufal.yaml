@@ -129,20 +129,20 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: naufalupdate
-    server: chat.sociomile.com
-    port: 80
+    server: ava.game.naver.com
+    port: 443
     type: vmess
     uuid: 1dc10b8f-03c0-4953-9bf4-ce0c40883e5e
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: chat.sociomile.com.do1.jstn.fun
+    servername: ava.game.naver.com.do1.jstn.fun
     network: ws
     ws-opts:
-      path: /chat.sociomile.com
+      path: /ava.game.naver.com
       headers:
-        Host: chat.sociomile.com.do1.jstn.fun
+        Host: ava.game.naver.com.do1.jstn.fun
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
