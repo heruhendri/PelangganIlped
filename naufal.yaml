@@ -128,27 +128,26 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: naufalupdate
-    server: ava.game.naver.com
+  - name: ID2-XUTS 🇮🇩
+    server: 104.18.214.235
     port: 443
-    type: vmess
-    uuid: 1dc10b8f-03c0-4953-9bf4-ce0c40883e5e
-    alterId: 0
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.do1.jstn.fun
+    servername: ava.game.naver.com.free.vpn-wuss.BIZ.id
     network: ws
     ws-opts:
-      path: /ava.game.naver.com
+      path: /Free/TG-at-BitzBlack/43.218.77.16-1443
       headers:
-        Host: ava.game.naver.com.do1.jstn.fun
+        Host: ava.game.naver.com.free.vpn-wuss.BIZ.id
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - naufalupdate
+      - ID2-XUTS 🇮🇩
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
