@@ -153,27 +153,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.never.do1.jstn.fun
+    servername: ava.game.naver.com.do1.jstn.fun
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: ava.game.never.do1.jstn.fun
-    udp: true
-  - name: ID2-XUTS 🇮🇩
-    server: 104.18.214.235
-    port: 443
-    type: vless
-    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.free.vpn-wuss.BIZ.id
-    network: ws
-    ws-opts:
-      path: /Free/TG-at-BitzBlack/43.218.77.16-1443
-      headers:
-        Host: ava.game.naver.com.free.vpn-wuss.BIZ.id
+        Host: ava.game.naver.com.do1.jstn.fun
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
@@ -181,7 +166,6 @@ proxy-groups:
     proxies:
       - NAUFAL 🇸🇬
       - naufalnew2
-      - ID2-XUTS 🇮🇩
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
