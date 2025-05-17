@@ -128,7 +128,7 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: SG XUTS DO 🇸🇬 git
+  - name: SG XUTS DO 🇸🇬
     server: 104.18.214.235
     port: 443
     type: vmess
@@ -148,7 +148,7 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - hendri
+      - SG XUTS DO 🇸🇬
       - DIRECT
 rules:
   - MATCH,FASTSSH-SSHKIT-HOWDY
