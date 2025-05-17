@@ -128,21 +128,21 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
 proxies:
-  - name: hendri
-    server: do2.storevpn.cc
+  - name: SG XUTS DO 🇸🇬 git
+    server: 104.18.214.235
     port: 443
     type: vmess
-    uuid: 69dd5785-00fb-4adc-abd2-caa7112066e0
+    uuid: 88131892-394f-402c-8739-65446010b6a4
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hwvip.iflix.com
+    servername: ava.game.naver.com.do1.jstn.fun
     network: ws
     ws-opts:
-      path: /vmess
+      path: /ava.game.naver.com
       headers:
-        Host: do2.storevpn.cc
+        Host: ava.game.naver.com.do1.jstn.fun
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
