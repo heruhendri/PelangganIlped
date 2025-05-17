@@ -129,7 +129,7 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: NAUFAL 🇸🇬
-    server: ava.game.naver.com
+    server: 104.18.214.235
     port: 443
     type: vmess
     uuid: 1dc10b8f-03c0-4953-9bf4-ce0c40883e5e
