@@ -132,7 +132,7 @@ proxies:
     server: 104.18.214.235
     port: 443
     type: vmess
-    uuid: 1dc10b8f-03c0-4953-9bf4-ce0c40883e5e
+    uuid: e886970a-e9c2-4f83-828f-58d8c3872e5d
     alterId: 0
     cipher: auto
     tls: true
@@ -148,7 +148,7 @@ proxies:
     server: 104.18.214.235
     port: 443
     type: vmess
-    uuid: 1dc10b8f-03c0-4953-9bf4-ce0c40883e5e
+    uuid: e886970a-e9c2-4f83-828f-58d8c3872e5d
     alterId: 0
     cipher: auto
     tls: true
